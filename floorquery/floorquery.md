@@ -5,7 +5,7 @@ jQuery isn't good. At all. It focused too much on issues that were immediately f
 All queries begin with a 2-character operator, then immediately follow with a required `[` for cleanliness. Anything after is controlled by the query handler itself. Like the following:
 
 ```javascript
-$("ex[]")
+$("ex[")
 ```
 
 Uppercase operators are commonly "stronger" versions of their lower counterparts.

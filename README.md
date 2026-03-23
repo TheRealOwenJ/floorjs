@@ -30,5 +30,3 @@ But of course the `.d.ts` files are important. While most users won't be using T
 | Name                    | Documentation                            |
 |-------------------------|------------------------------------------|
 | Dark/Light Mode Handler | [darklight.md](./darklight/darklight.md) |
-|                         |                                          |
-|                         |                                          |

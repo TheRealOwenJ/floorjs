@@ -21,7 +21,7 @@ window.$ = (operator, params) => {
         case "SS": // Writes to session storage
             if (!params.includes(";")) throw window.queryError("Params must match pattern: key;value", operator, params)
             const [skey, svalue] = params.split(";", 2)
-            localStorage.setItem(skey, svalue)
+            sessionStorage.setItem(skey, svalue)
             return
         default:
             throw window.queryError("Attempted query with an invalid operator!", operator, params)

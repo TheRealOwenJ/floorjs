@@ -8,7 +8,7 @@ declare global {
      * @param operator Operator shown in debug section
      * @param params Params shown in debug section
      */
-    function queryError(message: string, operator: string, params: string): void
+    function queryError(message: string, operator: string, params: string): Error
 
     /**
      * Shorthand syntax for many operations. Provided by FloorJS.

@@ -11,7 +11,7 @@ $("example", "EXAMPLE!!!")
 Notes:
 - Operators are mostly 2 characters but may extend beyond that.
 - Uppercase operators are commonly "stronger" versions of their lower counterparts.
-- The type file comes with operator autocompletion (but none for params).
+- The type file comes with operator autocompletion (recently some for params).
 
 **Floorquery** fixes whatever needs fixing. As new features are rolled out in major browsers, it jams shorthand syntax everywhere possible!
 
